@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --bgColor: hsl(212, 45%, 89%);
+    --description: hsl(220, 15%, 55%);
+    --colorH1: hsl(218, 44%, 22%);
+}
+
+body {
+    font-family: "Outfit";
+    font-size: 15px;
+    padding: 1rem;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bgColor);
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+main {
+    max-width: 280px;     
+}
+
+.container {
+    background-color: var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);    
+}
+
+.container img {
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.container h1 {
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--colorH1);
+}
+
+.container p {
+    color: var(--description);
+    margin: 1rem 0 2rem 0;
+    
+}
+
+.attribution {
+    margin-top: 2rem;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
