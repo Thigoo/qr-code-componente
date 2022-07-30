@@ -1,2 +1,2 @@
-# qr-code-componente
-Card qr code responsivo utilizando HTML e CSS. Desafio front end mentor.
+# qr-code-component
+Responsive landing page using html and css
